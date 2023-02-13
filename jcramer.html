@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <meta name="About Me" content="The HTML5 Herald">
+  <meta name="Jon Cramer" content="SitePoint">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Custom CSS-->
+  <link rel="stylesheet" href="css/jcramer_styles.css">
+</head>
+
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">Jon Cramer</a>
+      <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+              href="#education">Education</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+              href="#experience">Experience</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <button onclick="location.href='https://www.linkedin.com/in/jonathon-cramer-29a18b130/'"
+              class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
+                </path>
+              </svg>
+            </button>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <button onclick="location.href='https://github.com/jcramerisu'" type="button" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead-->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+      <!-- Masthead Avatar Image-->
+      <img class="rounded-circle" src="images/jcramer_breck.png" alt="..." />
+      <!-- Masthead Heading-->
+      <hr class="divider">
+      <h1 class="masthead-heading text-uppercase mb-0">Jon Cramer</h1>
+      <!-- Divider-->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+      </div>
+      <!-- Masthead Subheading-->
+      <p class="masthead-subheading font-weight-light mb-0">System Admin</p>
+    </div>
+  </header>
+
+  <!-- Education Section-->
+  <section class="page-section" id="education">
+    <div class="section-content">
+      <div class="container professional">
+        <h1 class="heading">My Education</h1>
+        <hr class="divider">
+        <div class="row professional">
+          <div class="col-md-7">
+            <p class="lead">In 2017, I obtained a bachelor’s degree from Illinois State University in Marketing
+              Analytics.</p>
+            <p class="lead">In 2019, I began pursuing a graduate degree from Illinois State University in Information
+              Systems.
+              I took a break in 2021 after getting married and buying a house. I started back up in 2023 and should be
+              completed with the degree in Spring of 2024.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/jcramer_isu.png" alt="ISU Logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section-->
+  <section class="page-section bg-primary text-white mb-0" id="experience">
+    <div class="section-content">
+      <div class="container professional">
+        <h1 class="heading">My Work Experience</h1>
+        <div class="row professional">
+          <div class="col-md-7">
+            <p class="lead">I am currently a PeopleSoft administrator at Illinois State University.
+              I have been working with PeopleSoft for about 7 years now,
+              starting as a student worker back in 2015 and transitioning to my current role after graduating from ISU
+              in 2017 with my bachelor’s degree.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/jcramer_oracle.png" class="rounded" alt="PeopleSoft Logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- About Section-->
+  <section class="page-section" id="about">
+    <div class="section-content">
+      <div class="container">
+        <h1 class="heading">My Hobbies and Interests</h1>
+        <div class="row row-cols-2">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/jcramer_snowboarding.jpg" alt="Snowboarding">
+              <div class="card-body">
+                <h5 class="card-title">Snowboarding</h5>
+                <p class="card-text">I enjoy snowboarding, especially out west in Colorado and Utah.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/jcramer_bears.png" alt="Chicago Bears Logo">
+              <div class="card-body">
+                <h5 class="card-title">Sports</h5>
+                <p class="card-text">I enjoy sports, especially football. My favorite team is Da Chicago Bears.</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/jcramer_alice.jpg" alt="Alice in Chains">
+              <div class="card-body">
+                <h5 class="card-title">Music</h5>
+                <p class="card-text">I love listening to all varieties of music, especially rock from the 90's. My
+                  favorite band is Alice in Chains.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="images/jcramer_Warzone.jpg" alt="Call of Duty Warzone">
+              <div class="card-body">
+                <h5 class="card-title">Video Games</h5>
+                <p class="card-text">In my free time, I enjoy playing video games with my friends. My favorite game is
+                  currently Call of Duty Warzone.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- 
+********** emmet notation **********
+ftr.footer>.container>span.text-muted
+-->
+  <footer class="footer">
+    <div class="container">
+      <span class="text-muted">Jon Cramer - Copyright &copy; 2023 - IT 354 - Assignment 2 – Bootstrap</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- NavBar JS-->
+  <script src="js/jcramer_scripts.js"></script>
+</body>
+
+</html>
